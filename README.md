@@ -17,3 +17,8 @@
 -   [x] Executing a .`js` file
     -   Open terminal: type `node filename`
     -   This runs the js file in the terminal, outside browser
+-   [x] Initializing Nodejs in a project
+    -   type cmd: `node init` to initialize nodejs project
+    -   this will create a `package.json` file in the directory
+    -   make a new script: "start": "node entryPointFileName.js"
+    -   In the terminal, now run the script: `npm scriptName`, example: `npm start`
