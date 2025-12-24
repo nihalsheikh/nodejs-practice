@@ -5,9 +5,15 @@ const fs = require("fs");
 2. writeFileSync -> method in fs to write on a file,
 3. ("location path & <fileName>", "Content for the file")
 */
-fs.writeFileSync("./test.txt", "Hello There, this is File System");
-
+fs.writeFileSync(
+	"./test.txt",
+	"writeFileSync() = Hello There, this is File System"
+);
 
 /* Asynchronous
-*/
-fs.writeFile()
+ */
+// fs.writeFile(
+// 	"./test.txt",
+// 	"writeFile = Hello There, this is File System",
+// 	(err) => {}
+// );

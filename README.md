@@ -21,4 +21,6 @@
     -   type cmd: `node init` to initialize nodejs project
     -   this will create a `package.json` file in the directory
     -   make a new script: "start": "node entryPointFileName.js"
-    -   In the terminal, now run the script: `npm scriptName`, example: `npm start`
+-   [x] Writing to a file with `fs` module
+    -   writeFile(): asynchronous, provide a callback function
+    -   writeFileSync(): synchronous, no need of callback function
