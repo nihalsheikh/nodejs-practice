@@ -1,1 +1,1 @@
-writeFile = Hello There, this is File System
+writeFileSync() = Hello There, this is File System
