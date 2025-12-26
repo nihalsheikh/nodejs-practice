@@ -24,3 +24,4 @@
 -   [x] Writing to a file with `fs` module
     -   writeFile(): asynchronous, provide a callback function
     -   writeFileSync(): synchronous, no need of callback function
+    -   readFileSync(): sync - read file, no callback func needed
