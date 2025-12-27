@@ -22,7 +22,15 @@ const fs = require("fs");
 // Reading a file
 /* Synchronous
 readFileSync("filePath", "fileEncoding")
-this returns a value,so store it in a variable
+this returns a value, so store it in a variable
 */
-const result = fs.readFileSync("./contacts.txt", "utf-8");
-console.log(result);
+// const result = fs.readFileSync("./contacts.txt", "utf-8");
+// console.log(result);
+
+fs.readFile("./contacts.txt", "utf-8", (err, res) => {
+	if (err) {
+		console.log("Error", err);
+	} else {
+		console.log(res);
+	}
+});
